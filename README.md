@@ -1,6 +1,9 @@
 # Aprendendo_C
 ## This is a repository to store the C codes that I am practicing in college
 
+- If anyone wants to use the codes provided here know that, it is necessary, when downloading an entire folder of one of the programs, use within the folder the file "functionMasterDaLista...". In some cases, all functions are inside that file, so the files, without this master function, will not work.
+-----
+
 - C is a language that, despite being old, is very interesting to improve and study programming logic. This readme will be a place where I will blog. I will store my experiences and learnings of the C language. I will include its peculiarities and functionalities.
 -------
 - The first interesting thing about C, which I see as relevant, is that C passes by reference using a system of "Pointers". It references a specific memory space, reserved in the main function. Speaking of which, this is the next curiosity.
