@@ -43,4 +43,12 @@ int controlador = 0;
 
 }
 
-
+int potencia(int base, int expoente){
+   int regulador = 0;
+   int acumulaBase = base;
+   while(regulador < expoente){
+     acumulaBase = base * acumulador;
+    regulador++ ;
+   }
+   return acumulaBase;
+}
