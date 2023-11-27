@@ -37,7 +37,7 @@ void multiplicaVetorIndicePonteiro(int *vetor,int coluna){
     int i, aux, menorIndice;
 
     for (i = 0; i < colunas ){
-
-    }
+      // Terminar...não sei muito bem como fazer isso...  [:( ]
+  }
  }
 }
