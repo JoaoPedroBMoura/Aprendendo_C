@@ -5,6 +5,7 @@ int main()
 {
 
   const int registros = 256;
+
   struct TASCII
   {
     int codigo;
@@ -56,6 +57,7 @@ int main()
   printf("[N]ao\n");
   printf("[S/N]:");
   scanf("\n%c", &opcao);
+
   if ((opcao == 'S') || (opcao == 's'))
     remove(nomeArquivo);
     system("pause");
