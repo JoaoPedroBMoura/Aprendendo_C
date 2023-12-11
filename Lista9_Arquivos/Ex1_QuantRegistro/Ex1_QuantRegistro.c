@@ -17,12 +17,15 @@ void main(){
 
  FILE * leituraDeArquivo = fopen("teste.dat","rb"); // criando uma variavel do tipo file/arquivo que armazena o meu arquivo criado
 
+
      while(1){
-      fread(&ascii,sizeof(struct TASCII),1,leituraDeArquivo); // função que lê registros dentro do meu arquivo
-       if(feof(leituraDeArquivo)){
-        break ;
-       }
-       i++;
+      fread(&ascii,sizeof(struct TASCII),1,leituraDeArquivo); // função que retorna a quant. de  registros lidos com sucesso
+
+           if(feof(leituraDeArquivo)){
+            break ;
+           }
+
+        i++;
      }
 
    printf("A quantidade total de registros é %d",i);
