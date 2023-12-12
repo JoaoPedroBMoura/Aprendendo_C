@@ -15,7 +15,7 @@ void main(){
   } ascii;
 
 
- FILE * leituraDeArquivo = fopen("teste.dat","rb"); // criando uma variavel do tipo file/arquivo que armazena o meu arquivo criado
+ FILE * leituraDeArquivo = fopen("copia.dat","rb"); // criando uma variavel do tipo file/arquivo que armazena o meu arquivo criado. Altere se quiser.
 
 
      while(1){
